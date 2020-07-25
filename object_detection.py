@@ -96,4 +96,4 @@ cv2.waitKey()
 cv2.imwrite("object-detection.jpg", image)
 cv2.destroyAllWindows()
 
-#python yolo_opencv.py --image dog.jpg --config yolov3.cfg --weights yolov3.weights --classes yolov3.txt
+#python object_detection.py --image <image_name> --config yolov3.cfg --weights yolov3.weights --classes yolov3.txt
